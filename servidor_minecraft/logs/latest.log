@@ -596,3 +596,4 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [07Dec2024 20:54:05.649] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
 [07Dec2024 20:54:05.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
 [07Dec2024 20:54:14.713] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6895, y=173, z=3841}
+[07Dec2024 21:03:44.762] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6897, y=162, z=3789}
