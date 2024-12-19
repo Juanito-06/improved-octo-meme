@@ -1,7 +1,7 @@
 {
   "banPlayerAfterDeath": false,
   "bleeding": {
-    "bleedTime": 1200,
+    "bleedTime": 600,
     "triggerForCreative": true,
     "bleedingMessage": true,
     "bleedingMessageTrackingOnly": true,
@@ -50,12 +50,12 @@
   "sounds": {
     "death": {
       "sound": "playerrevive:death",
-      "volume": 1.0,
+      "volume": 1.5,
       "pitch": 1.0
     },
     "revived": {
       "sound": "playerrevive:revived",
-      "volume": 1.0,
+      "volume": 1.5,
       "pitch": 1.0
     }
   },

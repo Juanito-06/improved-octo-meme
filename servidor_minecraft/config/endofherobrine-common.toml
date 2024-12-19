@@ -10,12 +10,12 @@
 	### Possession ###
 	#
 	#Should mobs get possessed?
-	mobPossession = true
+	mobPossession = false
 	#Should possessed animals revert to normal?
-	revertPossession = true
+	revertPossession = false
 	#Time in ticks mobs will remain possessed  #Default: 1/2 minecraft day
 	#Range: > 0
-	remainPossessedTicks = 12000
+	remainPossessedTicks = 1
 	#List of mobs that should not get possessed #Example: "husk, pig, villager"
 	blacklistPossession = ""
 	#

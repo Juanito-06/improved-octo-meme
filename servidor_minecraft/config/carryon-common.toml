@@ -57,7 +57,7 @@
 [whitelist]
 	#Whitelist. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Black---and-Whitelist-Config
 	#Entities that CAN be picked up (useWhitelistEntities must be true)
-	allowedEntities = []
+	allowedEntities = ["minecraft:villager"]
 	#Blocks that CAN be picked up (useWhitelistBlocks must be true)
 	allowedBlocks = []
 	#Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)
