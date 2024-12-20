@@ -1,667 +1,344 @@
-[07Dec2024 21:56:30.962] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[07Dec2024 21:56:30.966] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[07Dec2024 21:56:31.993] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[07Dec2024 21:56:32.034] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/improved-octo-meme/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[07Dec2024 21:56:32.508] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/improved-octo-meme/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[07Dec2024 21:56:32.509] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/improved-octo-meme/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[07Dec2024 21:56:32.510] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/improved-octo-meme/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[07Dec2024 21:56:32.511] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/improved-octo-meme/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[07Dec2024 21:56:32.838] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[07Dec2024 21:56:32.840] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/improved-octo-meme/servidor_minecraft/mods/curios-forge-5.8.1+1.20.1.jar
-[07Dec2024 21:56:32.840] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 18 dependencies adding them to mods collection
-[07Dec2024 21:56:36.529] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[07Dec2024 21:56:36.750] [main/ERROR] [mixin/]: Mixin config arclight.mixins.json does not specify "minVersion" property
-[07Dec2024 21:56:36.993] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-[07Dec2024 21:56:36.994] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[07Dec2024 21:56:36.995] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[07Dec2024 21:56:37.009] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
-[07Dec2024 21:56:37.022] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[07Dec2024 21:56:37.150] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.20.1: 83 options available, 0 override(s) found
-[07Dec2024 21:56:37.150] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[07Dec2024 21:56:37.171] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[07Dec2024 21:56:37.270] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
-[07Dec2024 21:56:37.272] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
-[07Dec2024 21:56:37.727] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
-[07Dec2024 21:56:37.730] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/gregtechmodernce.xml
-[07Dec2024 21:56:37.732] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
-[07Dec2024 21:56:37.733] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
-[07Dec2024 21:56:37.734] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
-[07Dec2024 21:56:37.735] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
-[07Dec2024 21:56:37.747] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
-[07Dec2024 21:56:37.748] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
-[07Dec2024 21:56:37.792] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 200 options available, 0 override(s) found
-[07Dec2024 21:56:37.836] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:37.851] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:37.859] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:37.864] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for arclight.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:37.870] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:37.977] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:38.030] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:38.114] [main/INFO] [Puzzles Lib/]: Loading 155 mods:
-	- aether 1.20.1-1.4.2-neoforge
-		|-- cumulus_menus 1.20.1-1.0.0-neoforge
-		\-- nitrogen_internals 1.20.1-1.0.7-neoforge
-	- amendments 1.20-1.2.8
-		\-- mixinextras 0.3.6
-	- appleskin 2.5.1+mc1.20.1
-	- aquaculture 2.5.1
-	- architectury 9.2.14
-	- artifacts 9.5.11
-		\-- expandability 9.0.4
-	- awesomedungeonend 3.1.1
-	- awesomedungeonnether 3.1.1
-	- awesomedungeonocean 3.3.0
-	- backpacked 3.0.0-beta.4
-	- balm 7.3.4
-		\-- kuma_api 20.1.6
-	- betteradvancements 0.4.2.10
-	- betterdungeons 1.20-Forge-4.0.4
-	- betterendisland 1.20-Forge-2.0.6
-	- betterfortresses 1.20-Forge-2.0.6
-	- betterjungletemples 1.20-Forge-2.0.5
-	- betteroceanmonuments 1.20-Forge-3.0.4
-	- betterstrongholds 1.20-Forge-4.0.3
-	- bettervillage 3.1.0
-	- biggerstacks 1.20.1-1.0.0
-	- blueprint 7.1.0
-	- bookshelf 20.2.13
-	- bosses_of_mass_destruction 1.1.2
-	- brutalbosses 1.20.1-7.0
-	- camera 1.20.1-1.0.8
-	- carryon 2.1.2.7
-	- castle_dungeons 4.0.0
-	- cataclysm 1.99.5
-	- cerbons_api 1.1.0
-	- cfm 7.0.0-pre36
-	- chunky 1.3.146
-	- citadel 2.5.4
-	- cloth_config 11.1.118
-	- collective 7.80
-	- comforts 6.3.5+1.20.1
-		\-- spectrelib 0.13.15+1.20.1
-	- configured 2.2.3
-	- connectedglass 1.1.11
-	- containersearch 1.0.0
-	- cosmeticarmorreworked 1.20.1-v1a
-	- crafttweaker 14.0.40
-	- creativecore 2.11.30
-	- cristellib 1.1.5
-	- cupboard 1.20.1-2.7
-	- curios 5.8.1+1.20.1
-	- deeperdarker 1.2.1
-	- diagonalfences 8.1.4
-		\-- diagonalblocks 8.0.5
-	- doubledoors 5.7
-	- dragonfight 1.20.1-4.4
-	- dungeoncrawl 2.3.14
-	- dungeons_arise 2.1.58-1.20.x
-	- dungeons_arise_seven_seas 1.0.2
-	- dungeons_enhanced 5.2.2
-	- dynamiclights 1.20.1.2
-	- easyanvils 8.0.2
-	- easymagic 8.0.1
-	- ecologics 2.2.0
-	- elevatorid 1.20.1-lex-1.9
-	- embeddium 0.3.22+mc1.20.1
-		\-- rubidium 0.7.1
-	- embeddiumplus 1.2.13
-	- enchdesc 17.0.16
-	- endofherobrine 1.20.1-1.0.8.2
-	- endrem 5.2.3-R-1.20.1
-	- entityculling 1.6.6
-	- epicpaladins 0.1.1-1.20.1-forge
-	- explorify 1.6.1
-	- farmersdelight 1.20.1-1.2.4
-	- fastconfigapi 1.1.0
-	- ferritecore 6.0.1
-	- flib 0.0.14
-	- forge 47.3.7
-	- fpsreducer 1.20-2.5
-	- framework 0.7.6
-	- fusion 1.1.1
-	- geckolib 4.4.7
-	- goblintraders 1.9.3
-	- iceandfire 2.1.13-1.20.1-beta-4
-	- iceberg 1.1.21
-	- immediatelyfast 1.2.18+1.20.4
-	- immersivecaves 1.3.5
-	- incendium 5.3.5
-	- infernalmobs 1.20.1.3
-	- infinitetrading 4.4
-	- insanelib 1.13.5
-	- inventoryhud 3.4.22
-	- inventorysorter 23.0.1
-	- iron_ender_chests 1.20-1.0.3
-	- ironchest 1.20.1-14.4.4
-	- jei 15.3.0.8
-	- jeiintegration 10.0.0
-	- journeymap 5.10.1
-	- justhammers 2.0.3+mc1.20.1
-	- justzoom 1.0.2
-	- konkrete 1.8.0
-	- ksyxis 1.3.2
-	- labellingcontainers 1.6.3
-	- libraryferret 4.0.0
-	- lionfishapi 1.9
-	- mcwdoors 1.1.1
-	- mcwwindows 2.2.1
-	- mes 1.3.1-1.20-forge
-	- minecraft 1.20.1
-	- mns 1.0.1-1.20-forge
-	- modernfix 5.18.1+mc1.20.1
-	- monolib 1.3.0
-	- moonlight 1.20-2.12.6
-	- mousetweaks 2.25.1
-	- mvs 4.1.2-1.20-forge
-	- myserveriscompatible 1.0
-	- naturallychargedcreepers 3.5
-	- nerb 1.20.1-0.2
-	- netherskeletons 4.9
-	- paraglider 20.1.3
-	- personality 4.0.0
-	- playerrevive 2.0.25
-	- progressivebosses 3.9.7-mc1.20.1
-	- puzzleslib 8.1.21
-		\-- puzzlesaccessapi 8.0.7
-	- reap 1.20.1-1.1.0
-	- repurposed_structures 7.1.15+1.20.1-forge
-	- securitycraft 1.9.10
-	- shulkerboxtooltip 4.0.4+1.20.1
-	- sons_of_sins 2.1.6
-	- soulfired 3.2.1.0
-	- spark 1.10.53
-	- spelunkers_charm 3.6.0
-	- stackrefill 4.5
-	- starlight 1.1.2+forge.1cda73c
-	- storagenetwork 1.10.0
-	- structure_gel 2.16.2
-	- structureessentials 1.20.1-3.4
-	- supermartijn642corelib 1.1.17
-	- supplementaries 1.20-2.8.17
-		\-- mixinsquared 0.1.1
-	- t_and_t 0.0NONE
-	- takesapillage 1.0.3
-	- tectonic 2.3.5a
-	- terrablender 3.0.1.7
-	- terralith 2.5.1
-	- tlskincape 1.32
-	- tombstone 8.6.6
-	- torchmaster 20.1.6
-	- trade_cycling 1.20.1-1.0.10
-	- trashslot 15.1.0
-	- travelersbackpack 9.1.14
-	- visualworkbench 8.0.0
-	- voicechat 1.20.1-2.5.17
-	- waystones 14.1.3
-	- yungsapi 1.20-Forge-4.0.5
-[07Dec2024 21:56:38.132] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:38.164] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[07Dec2024 21:56:38.900] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
-[07Dec2024 21:56:39.801] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[07Dec2024 21:56:39.802] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[07Dec2024 21:56:40.386] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[07Dec2024 21:56:40.387] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[07Dec2024 21:56:40.388] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[07Dec2024 21:56:40.389] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[07Dec2024 21:56:40.389] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[07Dec2024 21:56:40.390] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[07Dec2024 21:56:40.391] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[07Dec2024 21:56:40.391] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[07Dec2024 21:56:40.732] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[07Dec2024 21:56:41.399] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.54 s after launch)
-[07Dec2024 21:56:41.534] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[07Dec2024 21:56:41.535] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[07Dec2024 21:56:41.652] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[07Dec2024 21:56:41.653] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[07Dec2024 21:56:43.163] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1760 milliseconds
-[07Dec2024 21:56:46.618] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
-[07Dec2024 21:56:46.678] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[07Dec2024 21:56:46.688] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[07Dec2024 21:56:46.690] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[07Dec2024 21:56:46.694] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[07Dec2024 21:56:46.886] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.893] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.893] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.893] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.893] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.894] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.894] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[07Dec2024 21:56:46.906] [modloading-worker-0/INFO] [fastconfigapi/]: FastConfigAPI has been initialized!
-[07Dec2024 21:56:46.945] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.RewardFeature
-[07Dec2024 21:56:46.946] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.ResistancesFeature
-[07Dec2024 21:56:46.955] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.MiscFeature
-[07Dec2024 21:56:46.967] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.MinionFeature
-[07Dec2024 21:56:46.981] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.HealthFeature
-[07Dec2024 21:56:46.987] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.DifficultyFeature
-[07Dec2024 21:56:46.993] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.wither.feature.AttackFeature
-[07Dec2024 21:56:47.000] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.RewardFeature
-[07Dec2024 21:56:47.004] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.ResistancesFeature
-[07Dec2024 21:56:47.011] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.MinionFeature
-[07Dec2024 21:56:47.013] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.HealthFeature
-[07Dec2024 21:56:47.018] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.BaseFeature
-[07Dec2024 21:56:47.024] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.elderguardian.feature.AttackFeature
-[07Dec2024 21:56:47.030] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.RewardFeature
-[07Dec2024 21:56:47.031] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.ResistancesFeature
-[07Dec2024 21:56:47.118] [modloading-worker-0/WARN] [mixin/]: @Final field f_31201_:Lorg/slf4j/Logger; in progressivebosses.mixins.json:DragonChargePlayerPhaseMixin should be final
-[07Dec2024 21:56:47.121] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.MinionFeature
-[07Dec2024 21:56:47.141] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.LarvaFeature
-[07Dec2024 21:56:47.147] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.HealthFeature
-[07Dec2024 21:56:47.156] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.DifficultyFeature
-[07Dec2024 21:56:47.162] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.CrystalFeature
-[07Dec2024 21:56:47.170] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.progressivebosses.module.dragon.feature.AttackFeature
-[07Dec2024 21:56:47.446] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[07Dec2024 21:56:47.446] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[07Dec2024 21:56:47.470] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalblocks:main
-[07Dec2024 21:56:47.475] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[07Dec2024 21:56:47.479] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.22+mc1.20.1.jar%23297!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:103) ~[embeddium-0.3.22+mc1.20.1.jar%23297!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:43) ~[embeddium-0.3.22+mc1.20.1.jar%23297!/:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23393!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[07Dec2024 21:56:47.880] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.80.
-[07Dec2024 21:56:48.268] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:56:48.285] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[07Dec2024 21:56:48.479] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[07Dec2024 21:56:48.491] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[07Dec2024 21:56:48.500] [modloading-worker-0/INFO] [MonoLib/]: Hello Forge world!
-[07Dec2024 21:56:48.505] [modloading-worker-0/INFO] [MonoLib/]: Hello from Common init on Forge! we are currently in a production environment!
-[07Dec2024 21:56:48.506] [modloading-worker-0/INFO] [MonoLib/]: The ID for diamonds is minecraft:diamond
-[07Dec2024 21:56:48.506] [modloading-worker-0/INFO] [MonoLib/]: Hello to monolib
-[07Dec2024 21:56:48.617] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
-[07Dec2024 21:56:48.631] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
-[07Dec2024 21:56:48.638] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[07Dec2024 21:56:48.654] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[07Dec2024 21:56:48.760] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[07Dec2024 21:56:48.829] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[07Dec2024 21:56:48.830] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[07Dec2024 21:56:48.838] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[07Dec2024 21:56:48.841] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[07Dec2024 21:56:48.846] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[07Dec2024 21:56:48.849] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[07Dec2024 21:56:48.850] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[07Dec2024 21:56:48.998] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[07Dec2024 21:56:48.998] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[07Dec2024 21:56:49.348] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
-[07Dec2024 21:56:49.348] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
-[07Dec2024 21:56:49.357] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it.
-[07Dec2024 21:56:49.513] [modloading-worker-0/INFO] [labellingcontainers/]: Initializing mod...
-[07Dec2024 21:56:49.519] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id labellingcontainers:request_taggable_blocks_config_packet
-[07Dec2024 21:56:49.521] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id labellingcontainers:label_printer_save_packet
-[07Dec2024 21:56:49.524] [modloading-worker-0/WARN] [labellingcontainers/]: Could not run Client Setup (mod is probably running on a Server-Only instance)
-[07Dec2024 21:56:49.542] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalfences:main
-[07Dec2024 21:56:49.719] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[07Dec2024 21:56:49.760] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[07Dec2024 21:56:49.978] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
-[07Dec2024 21:56:49.979] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
-[07Dec2024 21:56:52.078] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 149ms
-[07Dec2024 21:56:52.130] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 48ms
-[07Dec2024 21:56:52.200] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 64ms
-[07Dec2024 21:56:53.542] [main/INFO] [Moonlight/]: Initialized block sets in 17ms
-[07Dec2024 21:56:53.979] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
-[07Dec2024 21:56:54.380] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[07Dec2024 21:56:54.390] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[07Dec2024 21:56:54.393] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[07Dec2024 21:56:54.395] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[07Dec2024 21:56:54.870] [main/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:56:55.056] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
-[07Dec2024 21:56:55.082] [modloading-worker-0/INFO] [com.dragonfight.DragonfightMod/]: dragonfight mod initialized
-[07Dec2024 21:56:55.104] [modloading-worker-0/INFO] [io.redspace.enderchestmod.IronEnderChests/]: HELLO FROM COMMON SETUP
-[07Dec2024 21:56:55.104] [modloading-worker-0/INFO] [io.redspace.enderchestmod.IronEnderChests/]: DIRT BLOCK >> minecraft:dirt
-[07Dec2024 21:56:55.184] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[07Dec2024 21:56:55.220] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[07Dec2024 21:56:55.235] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
-[07Dec2024 21:56:55.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
-[07Dec2024 21:56:55.296] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[07Dec2024 21:56:55.313] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[07Dec2024 21:56:55.313] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[07Dec2024 21:56:55.323] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[07Dec2024 21:56:55.469] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
-[07Dec2024 21:56:55.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[07Dec2024 21:56:55.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: OUTDATED Current: 1.20.1-1.4.2-neoforge Target: 1.20.1-1.5.1-neoforge
-[07Dec2024 21:56:55.541] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
-[07Dec2024 21:56:55.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: OUTDATED Current: 2.2.1 Target: 2.3.0
-[07Dec2024 21:56:55.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[07Dec2024 21:56:55.806] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 1, 0, 1, 0, 0, 15, 6, 1] ms
-[07Dec2024 21:56:55.869] [main/INFO] [journeymap/]: Initializing Packet Registries
-[07Dec2024 21:56:55.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
-[07Dec2024 21:56:55.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
-[07Dec2024 21:56:55.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.1 Target: null
-[07Dec2024 21:56:55.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[07Dec2024 21:56:55.893] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-2.8.17 Target: null
-[07Dec2024 21:56:55.893] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalblocks.json
-[07Dec2024 21:56:55.896] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[07Dec2024 21:56:55.896] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[07Dec2024 21:56:55.897] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[07Dec2024 21:56:55.897] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[07Dec2024 21:56:55.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Found status: BETA Current: 8.0.5 Target: null
-[07Dec2024 21:56:55.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[07Dec2024 21:56:55.984] [main/INFO] [Moonlight/]: Initialized color sets in 47ms
-[07Dec2024 21:56:56.007] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[07Dec2024 21:56:56.007] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[07Dec2024 21:56:56.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[07Dec2024 21:56:56.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
-[07Dec2024 21:56:56.451] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[07Dec2024 21:56:56.452] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[07Dec2024 21:56:56.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: OUTDATED Current: 1.20.1-1.0.8 Target: 1.20.1-1.0.19
-[07Dec2024 21:56:56.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[07Dec2024 21:56:56.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.6 Target: 8.8.6
-[07Dec2024 21:56:56.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soulfired] Starting version check at https://api.modrinth.com/updates/soul-fire-d/forge_updates.json
-[07Dec2024 21:56:56.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soulfired] Found status: OUTDATED Current: 3.2.1.0 Target: 4.0.6
-[07Dec2024 21:56:56.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[07Dec2024 21:56:56.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: OUTDATED Current: 1.20.1-1.0.0-neoforge Target: 1.20.1-1.0.1-neoforge
-[07Dec2024 21:56:56.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[07Dec2024 21:56:57.253] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07Dec2024 21:56:57.310] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
-[07Dec2024 21:56:57.310] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[07Dec2024 21:56:57.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
-[07Dec2024 21:56:57.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
-[07Dec2024 21:56:57.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
-[07Dec2024 21:56:57.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
-[07Dec2024 21:56:57.683] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.0 Target: null
-[07Dec2024 21:56:57.683] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[07Dec2024 21:56:57.697] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/improved-octo-meme/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23391!/assets/.mcassetsroot' uses unexpected schema
-[07Dec2024 21:56:57.698] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/improved-octo-meme/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23391!/data/.mcassetsroot' uses unexpected schema
-[07Dec2024 21:56:57.758] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on backpacked.common.mixins.json:common.ServerPlayerGameModeMixin::handler$bme000$backpacked$OnBlockMined exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[07Dec2024 21:56:57.773] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[07Dec2024 21:56:57.774] [main/WARN] [Cristel Lib/]: T&T Waystone Patch Pack accepted!
-[07Dec2024 21:56:57.964] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 94 ms
-[07Dec2024 21:56:58.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[07Dec2024 21:56:58.033] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://update.maxhenkel.de/forge/reap
-[07Dec2024 21:56:58.135] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: OUTDATED Current: 1.20.1-1.1.0 Target: 1.20.1-1.1.2
-[07Dec2024 21:56:58.135] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[07Dec2024 21:56:58.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
-[07Dec2024 21:56:58.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[07Dec2024 21:56:58.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.14 Target: 9.1.16
-[07Dec2024 21:56:58.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
-[07Dec2024 21:56:58.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.10.0 Target: null
-[07Dec2024 21:56:58.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
-[07Dec2024 21:56:58.446] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
-[07Dec2024 21:56:58.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.2.3 Target: 2.2.3
-[07Dec2024 21:56:58.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
-[07Dec2024 21:56:58.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA_OUTDATED Current: 14.0.40 Target: 14.0.44
-[07Dec2024 21:56:58.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
-[07Dec2024 21:56:58.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
-[07Dec2024 21:56:58.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[07Dec2024 21:56:58.841] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[07Dec2024 21:56:58.841] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[07Dec2024 21:56:58.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.17 Target: 1.20.1-2.5.26
-[07Dec2024 21:56:58.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
-[07Dec2024 21:56:59.047] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: OUTDATED Current: 1.20.1-1.0.10 Target: 1.20.1-1.0.14
-[07Dec2024 21:56:59.047] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[07Dec2024 21:56:59.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA_OUTDATED Current: 17.0.16 Target: 17.1.19
-[07Dec2024 21:56:59.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[07Dec2024 21:56:59.161] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.6 Target: null
-[07Dec2024 21:56:59.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
-[07Dec2024 21:56:59.171] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.2 Target: null
-[07Dec2024 21:56:59.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
-[07Dec2024 21:56:59.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 10.0.0 Target: null
-[07Dec2024 21:56:59.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[07Dec2024 21:56:59.286] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonend:aws_all_end_structures/start_pool`: { spacing: 20, separation: 15, salt: 49082056, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.290] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.306] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.306] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.316] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.316] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.317] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.317] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.317] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.318] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.318] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.319] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.319] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.319] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.319] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.320] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.320] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[07Dec2024 21:56:59.415] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	... 6 more
-[07Dec2024 21:56:59.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[07Dec2024 21:56:59.483] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.10 Target: 1.9.12
-[07Dec2024 21:56:59.483] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalfences.json
-[07Dec2024 21:56:59.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Found status: OUTDATED Current: 8.1.4 Target: 8.1.5
-[07Dec2024 21:56:59.493] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
-[07Dec2024 21:56:59.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA_OUTDATED Current: 3.0.0-beta.4 Target: 3.0.0-beta.9
-[07Dec2024 21:56:59.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[07Dec2024 21:56:59.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: OUTDATED Current: 3.4.22 Target: 3.4.26
-[07Dec2024 21:56:59.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[07Dec2024 21:56:59.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.21 Target: 8.1.25
-[07Dec2024 21:57:01.205] [Worker-Main-2/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.6.6.jar
-[07Dec2024 21:57:01.247] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:skreechers_can_spawn_wardens as it is missing following references: deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1.jar)
-[07Dec2024 21:57:01.251] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:gems as it is missing following references: #forge:gems/ruby (from epicpaladins-0.1.1-1.20.1-forge.jar)
-[07Dec2024 21:57:01.378] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:storage_blocks as it is missing following references: #forge:ores/steel (from epicpaladins-0.1.1-1.20.1-forge.jar)
-[07Dec2024 21:57:02.904] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
-[07Dec2024 21:57:02.989] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:netherskeletons:entities/crimson_skeleton}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.989] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:netherskeletons:entities/skelly_ghast}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.989] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.990] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:netherskeletons:entities/warped_skeleton}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.990] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.990] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:netherskeletons:entities/warped_skeleton}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.990] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.991] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:02.991] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:netherskeletons:entities/crimson_skeleton}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[07Dec2024 21:57:03.082] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[07Dec2024 21:57:03.246] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[07Dec2024 21:57:03.307] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[07Dec2024 21:57:03.333] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:slice_map: com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
-[07Dec2024 21:57:03.394] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 27 recipes
-[07Dec2024 21:57:03.394] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
-[07Dec2024 21:57:03.624] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5116 advancements
-[07Dec2024 21:57:03.628] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[07Dec2024 21:57:03.683] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 19 curio slots
-[07Dec2024 21:57:03.702] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio entities
-[07Dec2024 21:57:03.703] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
-     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
-     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
-     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
-[07Dec2024 21:57:03.713] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[07Dec2024 21:57:03.723] [main/INFO] [Dungeon Crawl/]: Loading data...
-[07Dec2024 21:57:04.065] [main/INFO] [Dungeon Crawl/]: Done.
-[07Dec2024 21:57:04.065] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
-[07Dec2024 21:57:04.088] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
-[07Dec2024 21:57:04.089] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
-[07Dec2024 21:57:04.090] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[07Dec2024 21:57:04.090] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
-[07Dec2024 21:57:04.090] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
-[07Dec2024 21:57:04.090] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
-[07Dec2024 21:57:04.090] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
-[07Dec2024 21:57:04.090] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
-[07Dec2024 21:57:04.091] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
-[07Dec2024 21:57:04.092] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
-[07Dec2024 21:57:04.103] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
-[07Dec2024 21:57:04.618] [main/INFO] [Supplementaries/]: Finished additional setup in 11 ms
-[07Dec2024 21:57:04.700] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[07Dec2024 21:57:04.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[07Dec2024 21:57:04.920] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[07Dec2024 21:57:04.921] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[07Dec2024 21:57:04.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[07Dec2024 21:57:05.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[07Dec2024 21:57:05.045] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[07Dec2024 21:57:05.106] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07Dec2024 21:57:05.107] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[07Dec2024 21:57:05.107] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07Dec2024 21:57:05.107] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[07Dec2024 21:57:05.118] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
-[07Dec2024 21:57:05.130] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
-[07Dec2024 21:57:05.134] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[07Dec2024 21:57:05.325] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[07Dec2024 21:57:05.325] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[07Dec2024 21:57:05.326] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[07Dec2024 21:57:05.326] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[07Dec2024 21:57:05.326] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[07Dec2024 21:57:05.327] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[07Dec2024 21:57:05.327] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[07Dec2024 21:57:05.328] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[07Dec2024 21:57:05.328] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[07Dec2024 21:57:05.328] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[07Dec2024 21:57:05.331] [Server thread/INFO] [portb.configlib.ConfigLib/]: Reading stacksize ruleset
-[07Dec2024 21:57:05.336] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Starting config file watcher
-[07Dec2024 21:57:05.457] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[07Dec2024 21:57:05.502] [Server thread/INFO] [spark/]: Starting background profiler...
-[07Dec2024 21:57:05.797] [Server thread/INFO] [Framework/]: Loading server configs...
-[07Dec2024 21:57:06.121] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07Dec2024 21:57:06.121] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[07Dec2024 21:57:06.125] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[07Dec2024 21:57:06.147] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07Dec2024 21:57:06.147] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[07Dec2024 21:57:06.416] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:57:06.516] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
-[07Dec2024 21:57:06.518] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
-[07Dec2024 21:57:06.521] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
-[07Dec2024 21:57:06.844] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:57:06.854] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:57:06.864] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:57:06.879] [Server thread/WARN] [yungsapi/]: WARNING: block Block{minecraft:lapis_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[07Dec2024 21:57:06.881] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[07Dec2024 21:57:06.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[07Dec2024 21:57:06.927] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 45 ms
-[07Dec2024 21:57:06.927] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.813s)! For help, type "help"
-[07Dec2024 21:57:06.977] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[07Dec2024 21:57:06.979] [Server thread/INFO] [io.redspace.enderchestmod.IronEnderChests/]: HELLO from server starting
-[07Dec2024 21:57:07.024] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: dragonfight.json
-[07Dec2024 21:57:07.025] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
-[07Dec2024 21:57:07.026] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[07Dec2024 21:57:07.026] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[07Dec2024 21:57:07.036] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
-[07Dec2024 21:57:07.036] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
-[07Dec2024 21:57:07.036] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
-[07Dec2024 21:57:07.037] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
-[07Dec2024 21:57:07.037] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/improved-octo-meme/servidor_minecraft/./config/infernalmobs.cfg
-[07Dec2024 21:57:07.037] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[07Dec2024 21:57:07.045] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is '100.85.80.95'
-[07Dec2024 21:57:07.045] [Server thread/WARN] [ModernFix/]: Dedicated server took 38.187 seconds to load
-[07Dec2024 21:57:07.045] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[07Dec2024 21:57:26.148] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[07Dec2024 21:57:26.277] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kamushkarkir[/100.72.1.82:50479] logged in with entity id 623 at (6858.8153976405865, 161.0, 3804.699999988079)
-[07Dec2024 21:57:26.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir joined the game
-[07Dec2024 21:57:26.579] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (18)
-[07Dec2024 21:57:26.581] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
-[07Dec2024 21:57:26.603] [Netty Epoll Server IO #3/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] kamushkarkir: protocol version: 2.0
-[07Dec2024 21:57:27.070] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
-[07Dec2024 21:57:27.074] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
-[07Dec2024 21:57:27.756] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
-[07Dec2024 21:57:28.754] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
-[07Dec2024 21:57:28.758] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
-[07Dec2024 21:58:02.156] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2660ms or 53 ticks behind
-[07Dec2024 21:59:44.969] [pool-8-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_savanna_plateau], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_mediterranean], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_snowy_taiga], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_crimson], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_beach], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_giant_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_flower_forest]] from pos BlockPos{x=11861, y=84, z=14069}
-[07Dec2024 21:59:45.216] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/exclusives/mediterranean/villager_bishop
-[07Dec2024 21:59:46.403] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=11861, y=84, z=14069} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[07Dec2024 21:59:46.403] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=11861, y=84, z=14069}
-[07Dec2024 22:01:22.642] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 4061c684-bf7c-3757-9a94-fd50d1219759 timed out
-[07Dec2024 22:01:22.643] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player kamushkarkir
-[07Dec2024 22:01:22.644] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
-[07Dec2024 22:01:26.756] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir lost connection: Timed out
-[07Dec2024 22:01:26.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir left the game
-[07Dec2024 22:01:26.760] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
-[07Dec2024 22:02:26.282] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kamushkarkir[/100.72.1.82:50494] logged in with entity id 3332 at (12190.917369577282, 74.0, 14251.167110079601)
-[07Dec2024 22:02:26.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir joined the game
-[07Dec2024 22:02:27.793] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (18)
-[07Dec2024 22:02:27.794] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
-[07Dec2024 22:02:28.492] [Netty Epoll Server IO #5/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] kamushkarkir: protocol version: 2.0
-[07Dec2024 22:03:00.320] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
-[07Dec2024 22:03:01.267] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
-[07Dec2024 22:03:01.268] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
-[07Dec2024 22:03:59.041] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir moved too quickly! 3.5875141109336255,4.160228308549435,-9.01411925211869
-[07Dec2024 22:04:21.511] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity CaveSpider['Arag the Lurker'/3361, l='ServerLevel[world]', x=12150.51, y=77.00, z=14260.49] died: Arag the Lurker was shot by kamushkarkir
-[07Dec2024 22:05:46.745] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir moved too quickly! 9.107300946245232,4.661433331115504,-0.7986870762433682
-[07Dec2024 22:07:52.311] [pool-8-thread-2/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_mountains], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_wooded_badlands], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_badlands], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_cherry], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_jungle], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_iberian]] from pos BlockPos{x=12475, y=78, z=14069}
-[07Dec2024 22:07:56.318] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3322ms or 66 ticks behind
-[07Dec2024 22:07:58.119] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=12475, y=78, z=14069} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[07Dec2024 22:07:58.119] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=12475, y=78, z=14069}
-[07Dec2024 22:08:10.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir moved too quickly! 3.146378407111115,-0.28324032841523206,-9.90367311947557
-[07Dec2024 22:08:15.943] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=12361, y=68, z=14105} BlockPos{x=12362, y=57, z=14106}
-[07Dec2024 22:09:04.549] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=12330, y=65, z=14097}
-[07Dec2024 22:12:01.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir moved too quickly! -0.5283820065087639,3.835226718173928,9.259204575058902
-[07Dec2024 22:12:37.573] [pool-8-thread-3/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_rustic], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_mushroom], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_savanna_plateau], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_ocean], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_badlands], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_oak], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_birch]] from pos BlockPos{x=12539, y=79, z=14379}
-[07Dec2024 22:13:38.909] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[07Dec2024 22:13:39.606] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[07Dec2024 22:13:40.317] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[07Dec2024 22:15:17.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir has made the advancement [The Only Good Bug...]
-[07Dec2024 22:15:34.597] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=12541, y=82, z=13983}
-[07Dec2024 22:15:38.707] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[07Dec2024 22:17:39.453] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
-[07Dec2024 22:17:56.360] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir moved too quickly! 5.181319551933484,4.6237939836678095,-7.6243603104139765
-[07Dec2024 22:17:59.311] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/exclusives/mediterranean/villager_bishop
-[07Dec2024 22:18:56.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir moved too quickly! 9.45054161855478,-1.975442564146249,2.8912314266199246
-[07Dec2024 22:22:14.571] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 4061c684-bf7c-3757-9a94-fd50d1219759 timed out
-[07Dec2024 22:22:14.572] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player kamushkarkir
-[07Dec2024 22:22:14.573] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
-[07Dec2024 22:22:28.157] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir lost connection: Timed out
-[07Dec2024 22:22:28.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir left the game
-[07Dec2024 22:22:28.159] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
-[07Dec2024 22:22:43.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[07Dec2024 22:22:43.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stop<--[HERE]
-[07Dec2024 22:22:49.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[07Dec2024 22:22:49.700] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
-[07Dec2024 22:22:49.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[07Dec2024 22:22:49.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[07Dec2024 22:22:49.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[07Dec2024 22:22:49.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07Dec2024 22:22:49.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[07Dec2024 22:22:49.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[07Dec2024 22:22:49.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
-[07Dec2024 22:22:49.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[07Dec2024 22:22:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07Dec2024 22:22:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[07Dec2024 22:22:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07Dec2024 22:22:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[07Dec2024 22:22:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07Dec2024 22:22:49.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07Dec2024 22:22:49.895] [Server thread/INFO] [Framework/]: Unloading server configs...
-[07Dec2024 22:22:49.896] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
-[07Dec2024 22:22:49.896] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[07Dec2024 22:22:49.916] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Dec2024 00:00:41.932] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -4.9959794395808785,0.35789224539507813,8.68939308704148
+[20Dec2024 00:01:29.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -9.502925515443167,-1.431523845270732,-3.251311542989697
+[20Dec2024 00:03:43.510] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6951, y=-41, z=3586} BlockPos{x=6951, y=-42, z=3586}
+[20Dec2024 00:05:07.542] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6966, y=170, z=3586}
+[20Dec2024 00:06:00.271] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6926, y=-14, z=3587} BlockPos{x=6926, y=-15, z=3589}
+[20Dec2024 00:06:00.320] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6926, y=-14, z=3587} BlockPos{x=6926, y=-15, z=3589}
+[20Dec2024 00:06:00.368] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6926, y=-14, z=3587} BlockPos{x=6926, y=-15, z=3589}
+[20Dec2024 00:06:00.420] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6926, y=-14, z=3587} BlockPos{x=6926, y=-15, z=3589}
+[20Dec2024 00:06:13.799] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6930, y=10, z=3565} BlockPos{x=6931, y=9, z=3565}
+[20Dec2024 00:06:38.711] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6936, y=13, z=3575} BlockPos{x=6936, y=10, z=3573}
+[20Dec2024 00:06:50.107] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.158] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.209] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.260] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.315] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.365] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.414] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.464] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.514] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.565] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.617] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.666] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.716] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.768] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:06:50.867] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6929, y=-42, z=3571} BlockPos{x=6929, y=-42, z=3570}
+[20Dec2024 00:07:18.617] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6939, y=-38, z=3584} BlockPos{x=6939, y=-39, z=3584}
+[20Dec2024 00:09:14.307] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6941, y=-31, z=3592} BlockPos{x=6941, y=-31, z=3591}
+[20Dec2024 00:10:19.168] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6986, y=-22, z=3652} BlockPos{x=6987, y=-25, z=3652}
+[20Dec2024 00:10:19.219] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6986, y=-22, z=3652} BlockPos{x=6987, y=-25, z=3652}
+[20Dec2024 00:10:19.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6986, y=-22, z=3652} BlockPos{x=6987, y=-25, z=3652}
+[20Dec2024 00:10:19.320] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6986, y=-22, z=3652} BlockPos{x=6987, y=-25, z=3652}
+[20Dec2024 00:10:19.369] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6986, y=-22, z=3652} BlockPos{x=6987, y=-25, z=3652}
+[20Dec2024 00:10:19.423] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6986, y=-22, z=3652} BlockPos{x=6987, y=-25, z=3652}
+[20Dec2024 00:15:04.492] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=7140, y=231, z=3627}
+[20Dec2024 00:15:36.770] [Server thread/INFO] [tombstone/]: The player ray1506 has successfully been saved
+[20Dec2024 00:15:41.856] [Server thread/INFO] [tombstone/]: The player ray1506 has successfully been saved
+[20Dec2024 00:15:49.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> XD
+[20Dec2024 00:15:54.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> Gaste 2 totems
+[20Dec2024 00:16:04.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> -_-
+[20Dec2024 00:18:45.876] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kamushkarkir[/100.72.1.82:53830] logged in with entity id 31176 at (6858.583572855996, 169.5625, 3823.3979037788263)
+[20Dec2024 00:18:45.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir joined the game
+[20Dec2024 00:18:55.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> gaste 2 totems xd
+[20Dec2024 00:18:59.987] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (18)
+[20Dec2024 00:18:59.988] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[20Dec2024 00:19:01.517] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR lost connection: Disconnected
+[20Dec2024 00:19:01.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR left the game
+[20Dec2024 00:19:01.519] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LFCR
+[20Dec2024 00:19:09.700] [Netty Epoll Server IO #1/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] kamushkarkir: protocol version: 2.0
+[20Dec2024 00:20:16.103] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir lost connection: Timed out
+[20Dec2024 00:20:16.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir left the game
+[20Dec2024 00:20:16.105] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
+[20Dec2024 00:20:16.155] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[20Dec2024 00:22:25.326] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5736ms or 114 ticks behind
+[20Dec2024 00:22:46.567] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LFCR[/100.66.61.51:63172] logged in with entity id 32388 at (6629.810026004556, -51.0, 3579.138580289497)
+[20Dec2024 00:22:46.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR joined the game
+[20Dec2024 00:22:48.248] [Netty Epoll Server IO #3/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] LFCR: protocol version: 2.0
+[20Dec2024 00:22:48.254] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LFCR (18)
+[20Dec2024 00:22:48.254] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LFCR
+[20Dec2024 00:22:51.274] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 5c163b9e-26d1-3bd9-a134-a7a3db5f6f81
+[20Dec2024 00:22:52.275] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 5c163b9e-26d1-3bd9-a134-a7a3db5f6f81
+[20Dec2024 00:22:52.276] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LFCR (5c163b9e-26d1-3bd9-a134-a7a3db5f6f81) successfully connected to voice chat
+[20Dec2024 00:23:11.372] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -1.06762510242811,-3.148427311364898,-9.64942967029532
+[20Dec2024 00:23:57.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 has completed the challenge [Find: Absi palace]
+[20Dec2024 00:25:07.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/32342, l='ServerLevel[world]', x=954.88, y=-20.00, z=582.79] died: Restless Spirit was killed
+[20Dec2024 00:25:07.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/32344, l='ServerLevel[world]', x=956.36, y=-20.00, z=581.81] died: Restless Spirit was killed
+[20Dec2024 00:25:07.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/32346, l='ServerLevel[world]', x=960.69, y=-20.00, z=579.68] died: Restless Spirit was killed
+[20Dec2024 00:25:39.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/32631, l='ServerLevel[world]', x=936.00, y=-20.00, z=552.29] died: Restless Spirit was killed
+[20Dec2024 00:25:40.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/32640, l='ServerLevel[world]', x=982.93, y=-20.00, z=512.11] died: Restless Spirit was killed
+[20Dec2024 00:26:05.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34833, l='ServerLevel[world]', x=1149.40, y=-20.00, z=410.36] died: Restless Spirit was killed
+[20Dec2024 00:26:24.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/33043, l='ServerLevel[world]', x=997.84, y=-20.00, z=459.99] died: Restless Spirit was killed
+[20Dec2024 00:26:35.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/33348, l='ServerLevel[world]', x=1008.17, y=-20.00, z=422.94] died: Restless Spirit was killed
+[20Dec2024 00:26:47.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/33646, l='ServerLevel[world]', x=1040.80, y=-20.00, z=358.83] died: Restless Spirit was killed
+[20Dec2024 00:27:07.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/33919, l='ServerLevel[world]', x=993.02, y=-20.00, z=449.00] died: Restless Spirit was killed
+[20Dec2024 00:27:10.191] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6686, y=125, z=3573}
+[20Dec2024 00:27:28.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34068, l='ServerLevel[world]', x=1029.36, y=-20.00, z=331.83] died: Restless Spirit was killed
+[20Dec2024 00:27:34.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34166, l='ServerLevel[world]', x=968.78, y=-20.00, z=444.11] died: Restless Spirit was killed
+[20Dec2024 00:27:37.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34195, l='ServerLevel[world]', x=1025.26, y=-20.00, z=424.27] died: Restless Spirit was killed
+[20Dec2024 00:27:38.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 has reached the goal [Pocket Edition Alpha]
+[20Dec2024 00:27:39.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34207, l='ServerLevel[world]', x=941.87, y=-20.00, z=440.06] died: Restless Spirit was killed
+[20Dec2024 00:27:39.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34209, l='ServerLevel[world]', x=953.35, y=-20.00, z=433.85] died: Restless Spirit was killed
+[20Dec2024 00:27:52.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34330, l='ServerLevel[world]', x=987.66, y=-20.00, z=418.11] died: Restless Spirit was killed
+[20Dec2024 00:27:52.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34332, l='ServerLevel[world]', x=976.37, y=-20.00, z=439.69] died: Restless Spirit was killed
+[20Dec2024 00:27:53.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34363, l='ServerLevel[world]', x=1041.14, y=-20.00, z=388.37] died: Restless Spirit was killed
+[20Dec2024 00:27:55.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34440, l='ServerLevel[world]', x=1049.47, y=-20.00, z=352.02] died: Restless Spirit was killed
+[20Dec2024 00:27:57.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34498, l='ServerLevel[world]', x=975.80, y=-20.00, z=398.01] died: Restless Spirit was killed
+[20Dec2024 00:28:13.549] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Ghast['Ghast Sentry'/34995, l='ServerLevel[world]', x=970.59, y=46.03, z=108.00] died: Ghast Sentry was shot by ray1506
+[20Dec2024 00:28:14.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/34928, l='ServerLevel[world]', x=1029.61, y=-20.00, z=325.77] died: Restless Spirit was killed
+[20Dec2024 00:29:03.803] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=961, y=37, z=140} BlockPos{x=961, y=35, z=141}
+[20Dec2024 00:30:23.842] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b timed out
+[20Dec2024 00:30:23.842] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player ray1506
+[20Dec2024 00:30:23.843] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[20Dec2024 00:30:30.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Timed out
+[20Dec2024 00:30:30.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[20Dec2024 00:30:30.657] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[20Dec2024 00:30:39.664] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ray1506[/100.85.101.31:54157] logged in with entity id 37681 at (992.3462749139452, 37.671163911629066, 97.07028225587491)
+[20Dec2024 00:30:39.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 joined the game
+[20Dec2024 00:30:39.923] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ray1506 (18)
+[20Dec2024 00:30:39.924] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[20Dec2024 00:30:40.025] [Netty Epoll Server IO #5/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] ray1506: protocol version: 2.0
+[20Dec2024 00:30:42.887] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[20Dec2024 00:30:43.859] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[20Dec2024 00:30:43.860] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ray1506 (553079a9-4a1e-3309-b36c-4ada3a6e164b) successfully connected to voice chat
+[20Dec2024 00:32:56.805] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kamushkarkir[/100.72.1.82:49839] logged in with entity id 39137 at (6858.583572855996, 169.5625, 3823.3979037788263)
+[20Dec2024 00:32:56.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir joined the game
+[20Dec2024 00:33:03.259] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (18)
+[20Dec2024 00:33:03.260] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[20Dec2024 00:33:03.505] [Netty Epoll Server IO #7/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] kamushkarkir: protocol version: 2.0
+[20Dec2024 00:33:16.648] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
+[20Dec2024 00:33:17.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
+[20Dec2024 00:33:17.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
+[20Dec2024 00:35:41.059] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=863, y=48, z=-34} BlockPos{x=863, y=47, z=-34}
+[20Dec2024 00:37:48.282] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -7.220391203763938,-1.209979233290042,7.021569156629084
+[20Dec2024 00:38:24.376] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -10.374634749568031,0.6200000047683716,0.9387662135090977
+[20Dec2024 00:39:44.185] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity WitherSkeleton['Radiation Director'/43230, l='ServerLevel[world]', x=998.08, y=32.00, z=69.64] died: Radiation Director was slain by ray1506
+[20Dec2024 00:39:45.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -2.051236624737612,-10.540699194315323,0.022426213277867646
+[20Dec2024 00:39:51.038] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 4061c684-bf7c-3757-9a94-fd50d1219759 timed out
+[20Dec2024 00:39:51.038] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player kamushkarkir
+[20Dec2024 00:39:51.039] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[20Dec2024 00:39:52.291] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
+[20Dec2024 00:39:53.293] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
+[20Dec2024 00:39:53.294] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
+[20Dec2024 00:39:58.614] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -7.001216114713316,11.30963086076872,-0.4444803957417207
+[20Dec2024 00:40:00.017] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=5708, y=24, z=3696}
+[20Dec2024 00:40:30.995] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/47599, l='ServerLevel[world]', x=5746.50, y=72.00, z=3798.50]
+[20Dec2024 00:40:35.108] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/47080, l='ServerLevel[world]', x=5680.47, y=66.00, z=3865.56] died, message: 'Fisherman was impaled by Sargent the Soaked'
+[20Dec2024 00:40:36.254] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 4061c684-bf7c-3757-9a94-fd50d1219759 timed out
+[20Dec2024 00:40:36.254] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player kamushkarkir
+[20Dec2024 00:40:36.255] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[20Dec2024 00:40:42.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir lost connection: Timed out
+[20Dec2024 00:40:42.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir left the game
+[20Dec2024 00:40:42.864] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
+[20Dec2024 00:40:50.599] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/47082, l='ServerLevel[world]', x=5703.69, y=65.00, z=3850.10] died, message: 'Leatherworker was impaled by Sargent the Soaked'
+[20Dec2024 00:41:06.599] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/47154, l='ServerLevel[world]', x=5712.96, y=64.00, z=3826.61] died, message: 'Nitwit was impaled by Sargent the Soaked'
+[20Dec2024 00:41:20.443] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/48010, l='ServerLevel[world]', x=5701.50, y=73.00, z=3838.50]
+[20Dec2024 00:41:50.291] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/48557, l='ServerLevel[world]', x=5683.50, y=73.00, z=3814.50]
+[20Dec2024 00:42:03.648] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/47081, l='ServerLevel[world]', x=5682.47, y=66.00, z=3863.41] died, message: 'Villager was impaled by Sargent the Soaked'
+[20Dec2024 00:42:04.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -8.797390205147167,2.4592582530816713,4.19934685325461
+[20Dec2024 00:42:11.195] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/49199, l='ServerLevel[world]', x=5734.50, y=72.00, z=3792.50]
+[20Dec2024 00:42:22.593] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/49572, l='ServerLevel[world]', x=5746.50, y=73.00, z=3819.50]
+[20Dec2024 00:42:46.591] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=5642, y=70, z=3885}
+[20Dec2024 00:42:50.642] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50375, l='ServerLevel[world]', x=5681.50, y=76.00, z=3897.50]
+[20Dec2024 00:42:52.993] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50378, l='ServerLevel[world]', x=5684.50, y=74.00, z=3890.50]
+[20Dec2024 00:42:57.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Drowned['Sargent the Soaked'/47079, l='ServerLevel[world]', x=5683.50, y=66.00, z=3857.09] died: Sargent the Soaked was shot by LFCR using [Hawkeye]
+[20Dec2024 00:43:00.044] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50489, l='ServerLevel[world]', x=5658.50, y=76.00, z=3824.50]
+[20Dec2024 00:43:00.644] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50508, l='ServerLevel[world]', x=5697.50, y=74.00, z=3821.50]
+[20Dec2024 00:43:12.743] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50637, l='ServerLevel[world]', x=5748.50, y=73.00, z=3821.50]
+[20Dec2024 00:43:13.642] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50669, l='ServerLevel[world]', x=5719.50, y=73.00, z=3853.50]
+[20Dec2024 00:43:16.442] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50737, l='ServerLevel[world]', x=5684.50, y=74.00, z=3891.50]
+[20Dec2024 00:43:32.593] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50970, l='ServerLevel[world]', x=5695.50, y=74.00, z=3822.50]
+[20Dec2024 00:43:33.043] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/50971, l='ServerLevel[world]', x=5701.50, y=73.00, z=3839.50]
+[20Dec2024 00:43:52.043] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/51073, l='ServerLevel[world]', x=5671.50, y=76.00, z=3821.50]
+[20Dec2024 00:43:52.542] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/51075, l='ServerLevel[world]', x=5729.50, y=72.00, z=3875.50]
+[20Dec2024 00:44:09.241] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/51414, l='ServerLevel[world]', x=5759.50, y=74.00, z=3800.50]
+[20Dec2024 00:44:09.742] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/51430, l='ServerLevel[world]', x=5699.50, y=73.00, z=3839.50]
+[20Dec2024 00:44:22.395] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/51834, l='ServerLevel[world]', x=5717.50, y=73.00, z=3853.50]
+[20Dec2024 00:44:33.894] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52181, l='ServerLevel[world]', x=5660.50, y=74.00, z=3840.50]
+[20Dec2024 00:44:35.393] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52232, l='ServerLevel[world]', x=5682.50, y=76.00, z=3898.50]
+[20Dec2024 00:44:35.894] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52261, l='ServerLevel[world]', x=5664.50, y=75.00, z=3889.50]
+[20Dec2024 00:44:40.744] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52470, l='ServerLevel[world]', x=5631.50, y=76.00, z=3876.50]
+[20Dec2024 00:44:42.695] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52523, l='ServerLevel[world]', x=5660.50, y=74.00, z=3842.50]
+[20Dec2024 00:44:46.394] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52656, l='ServerLevel[world]', x=5632.50, y=76.00, z=3878.50]
+[20Dec2024 00:44:55.194] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/52922, l='ServerLevel[world]', x=5632.50, y=78.00, z=3918.50]
+[20Dec2024 00:45:13.096] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/53333, l='ServerLevel[world]', x=5630.50, y=76.00, z=3878.50]
+[20Dec2024 00:45:32.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53697, l='ServerLevel[world]', x=935.51, y=-20.00, z=580.50] died: Restless Spirit was killed
+[20Dec2024 00:45:32.695] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53699, l='ServerLevel[world]', x=932.50, y=-20.00, z=580.49] died: Restless Spirit was killed
+[20Dec2024 00:45:38.544] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/53923, l='ServerLevel[world]', x=5656.50, y=78.00, z=3946.50]
+[20Dec2024 00:45:47.792] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54116, l='ServerLevel[world]', x=5693.50, y=75.00, z=3888.50]
+[20Dec2024 00:45:51.540] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=5668, y=65, z=3840}
+[20Dec2024 00:46:00.643] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54347, l='ServerLevel[world]', x=5661.50, y=74.00, z=3862.50]
+[20Dec2024 00:46:07.793] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54409, l='ServerLevel[world]', x=5657.50, y=76.00, z=3824.50]
+[20Dec2024 00:46:10.093] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54426, l='ServerLevel[world]', x=5681.50, y=73.00, z=3949.50]
+[20Dec2024 00:46:12.195] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54440, l='ServerLevel[world]', x=5664.50, y=75.00, z=3890.50]
+[20Dec2024 00:46:13.845] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54448, l='ServerLevel[world]', x=5695.50, y=74.00, z=3820.50]
+[20Dec2024 00:46:30.342] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54652, l='ServerLevel[world]', x=5725.50, y=69.00, z=3855.50]
+[20Dec2024 00:46:33.795] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54682, l='ServerLevel[world]', x=5658.50, y=76.00, z=3826.50]
+[20Dec2024 00:46:53.193] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54901, l='ServerLevel[world]', x=5698.50, y=74.00, z=3887.50]
+[20Dec2024 00:46:53.345] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/54902, l='ServerLevel[world]', x=5669.50, y=76.00, z=3909.50]
+[20Dec2024 00:47:01.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/52111, l='ServerLevel[world]', x=1059.96, y=-20.00, z=365.97] died: Restless Spirit was killed
+[20Dec2024 00:47:02.794] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55070, l='ServerLevel[world]', x=5746.50, y=72.00, z=3832.50]
+[20Dec2024 00:47:04.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/52222, l='ServerLevel[world]', x=1087.92, y=-20.00, z=415.37] died: Restless Spirit was killed
+[20Dec2024 00:47:05.691] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/52277, l='ServerLevel[world]', x=1024.08, y=-20.00, z=411.64] died: Restless Spirit was killed
+[20Dec2024 00:47:15.144] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55350, l='ServerLevel[world]', x=5726.50, y=69.00, z=3854.50]
+[20Dec2024 00:47:15.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/52649, l='ServerLevel[world]', x=1057.06, y=-20.00, z=440.72] died: Restless Spirit was killed
+[20Dec2024 00:47:15.795] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55369, l='ServerLevel[world]', x=5668.50, y=80.00, z=3935.50]
+[20Dec2024 00:47:20.996] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55518, l='ServerLevel[world]', x=5731.50, y=72.00, z=3874.50]
+[20Dec2024 00:47:23.495] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55539, l='ServerLevel[world]', x=5685.50, y=73.00, z=3816.50]
+[20Dec2024 00:47:25.597] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55639, l='ServerLevel[world]', x=5702.50, y=73.00, z=3854.50]
+[20Dec2024 00:47:35.244] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55742, l='ServerLevel[world]', x=5694.50, y=75.00, z=3888.50]
+[20Dec2024 00:47:36.045] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55788, l='ServerLevel[world]', x=5735.50, y=72.00, z=3791.50]
+[20Dec2024 00:47:39.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53227, l='ServerLevel[world]', x=1066.40, y=-20.00, z=354.20] died: Restless Spirit was killed
+[20Dec2024 00:47:39.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53230, l='ServerLevel[world]', x=1065.04, y=-20.00, z=356.56] died: Restless Spirit was killed
+[20Dec2024 00:47:39.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53232, l='ServerLevel[world]', x=1072.05, y=-20.00, z=357.06] died: Restless Spirit was killed
+[20Dec2024 00:47:41.595] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/55916, l='ServerLevel[world]', x=5737.50, y=71.00, z=3827.50]
+[20Dec2024 00:47:45.290] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3000ms or 60 ticks behind
+[20Dec2024 00:47:45.518] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/56136, l='ServerLevel[world]', x=5743.50, y=73.00, z=3770.50]
+[20Dec2024 00:47:49.544] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/56287, l='ServerLevel[world]', x=5682.50, y=76.00, z=3899.50]
+[20Dec2024 00:47:51.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53428, l='ServerLevel[world]', x=1024.06, y=-20.00, z=466.97] died: Restless Spirit was killed
+[20Dec2024 00:47:53.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -9.13849429113634,-3.733632006042484,2.569078310407349
+[20Dec2024 00:47:54.345] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/56394, l='ServerLevel[world]', x=5651.50, y=82.00, z=3921.50]
+[20Dec2024 00:48:07.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/53826, l='ServerLevel[world]', x=1024.02, y=-20.00, z=411.14] died: Restless Spirit was killed
+[20Dec2024 00:48:15.247] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/56936, l='ServerLevel[world]', x=5642.50, y=80.00, z=3890.50]
+[20Dec2024 00:48:43.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -11.719104045182576,-0.18889376711705097,-0.5785077914247267
+[20Dec2024 00:49:07.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! -9.867299746644676,-1.7499999999999005,-0.9069320037133366
+[20Dec2024 00:49:43.397] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59322, l='ServerLevel[world]', x=5618.50, y=77.00, z=3895.50]
+[20Dec2024 00:49:43.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/55232, l='ServerLevel[world]', x=981.45, y=-20.00, z=540.75] died: Restless Spirit was killed
+[20Dec2024 00:49:44.446] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59357, l='ServerLevel[world]', x=5643.50, y=80.00, z=3891.50]
+[20Dec2024 00:49:49.345] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59433, l='ServerLevel[world]', x=5680.50, y=73.00, z=3950.50]
+[20Dec2024 00:49:51.796] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59445, l='ServerLevel[world]', x=5692.50, y=75.00, z=3888.50]
+[20Dec2024 00:49:53.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/55510, l='ServerLevel[world]', x=929.48, y=-20.00, z=522.91] died: Restless Spirit was killed
+[20Dec2024 00:49:53.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Vex['Restless Spirit'/55512, l='ServerLevel[world]', x=934.53, y=-20.00, z=527.21] died: Restless Spirit was killed
+[20Dec2024 00:49:55.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! 9.37757447160493,-1.7499999999999005,3.207430491260311
+[20Dec2024 00:50:02.165] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59624, l='ServerLevel[world]', x=5631.50, y=78.00, z=3918.50]
+[20Dec2024 00:50:11.543] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/59872, l='ServerLevel[world]', x=5699.50, y=73.00, z=3838.50]
+[20Dec2024 00:50:19.394] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60071, l='ServerLevel[world]', x=5670.50, y=80.00, z=3934.50]
+[20Dec2024 00:50:19.645] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60072, l='ServerLevel[world]', x=5697.50, y=74.00, z=3887.50]
+[20Dec2024 00:50:20.443] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60078, l='ServerLevel[world]', x=5642.50, y=78.00, z=3925.50]
+[20Dec2024 00:50:26.697] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VeinGoblinTrader['pochoclo'/60047, l='ServerLevel[world]', x=6858.46, y=70.50, z=3795.55] died: pochoclo suffocated in a wall
+[20Dec2024 00:50:34.696] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60157, l='ServerLevel[world]', x=5703.50, y=73.00, z=3856.50]
+[20Dec2024 00:50:35.093] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60158, l='ServerLevel[world]', x=5719.50, y=73.00, z=3852.50]
+[20Dec2024 00:50:44.194] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60317, l='ServerLevel[world]', x=5724.50, y=69.00, z=3854.50]
+[20Dec2024 00:50:49.843] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60430, l='ServerLevel[world]', x=5675.50, y=74.00, z=3859.50]
+[20Dec2024 00:50:53.146] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60464, l='ServerLevel[world]', x=5719.50, y=73.00, z=3854.50]
+[20Dec2024 00:51:00.595] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60485, l='ServerLevel[world]', x=5662.50, y=75.00, z=3889.50]
+[20Dec2024 00:51:01.795] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60494, l='ServerLevel[world]', x=5696.50, y=74.00, z=3822.50]
+[20Dec2024 00:51:08.595] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60530, l='ServerLevel[world]', x=5630.50, y=76.00, z=3877.50]
+[20Dec2024 00:51:08.944] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60531, l='ServerLevel[world]', x=5669.50, y=76.00, z=3911.50]
+[20Dec2024 00:51:10.794] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60551, l='ServerLevel[world]', x=5670.50, y=76.00, z=3911.50]
+[20Dec2024 00:51:18.946] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60709, l='ServerLevel[world]', x=5632.50, y=78.00, z=3920.50]
+[20Dec2024 00:51:25.596] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60746, l='ServerLevel[world]', x=5676.50, y=74.00, z=3859.50]
+[20Dec2024 00:51:30.345] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60766, l='ServerLevel[world]', x=5682.50, y=73.00, z=3949.50]
+[20Dec2024 00:51:44.745] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60809, l='ServerLevel[world]', x=5685.50, y=73.00, z=3815.50]
+[20Dec2024 00:51:48.095] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60818, l='ServerLevel[world]', x=5631.50, y=76.00, z=3878.50]
+[20Dec2024 00:51:48.545] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/60820, l='ServerLevel[world]', x=5685.50, y=74.00, z=3962.50]
+[20Dec2024 00:52:13.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! 9.833946614427987,3.149200019741059,0.4221204085883983
+[20Dec2024 00:52:32.946] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61249, l='ServerLevel[world]', x=5663.50, y=74.00, z=3862.50]
+[20Dec2024 00:52:34.695] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61255, l='ServerLevel[world]', x=5683.50, y=74.00, z=3890.50]
+[20Dec2024 00:52:35.296] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61258, l='ServerLevel[world]', x=5651.50, y=77.00, z=3954.50]
+[20Dec2024 00:52:54.897] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61460, l='ServerLevel[world]', x=5674.50, y=74.00, z=3860.50]
+[20Dec2024 00:53:11.595] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61833, l='ServerLevel[world]', x=5738.50, y=71.00, z=3828.50]
+[20Dec2024 00:53:13.899] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61841, l='ServerLevel[world]', x=5683.50, y=74.00, z=3892.50]
+[20Dec2024 00:53:14.647] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61844, l='ServerLevel[world]', x=5630.50, y=78.00, z=3918.50]
+[20Dec2024 00:53:16.145] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61852, l='ServerLevel[world]', x=5701.50, y=73.00, z=3854.50]
+[20Dec2024 00:53:23.545] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61933, l='ServerLevel[world]', x=5618.50, y=77.00, z=3893.50]
+[20Dec2024 00:53:26.595] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/61947, l='ServerLevel[world]', x=5748.50, y=72.00, z=3832.50]
+[20Dec2024 00:53:44.044] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62242, l='ServerLevel[world]', x=5660.50, y=74.00, z=3841.50]
+[20Dec2024 00:53:50.344] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62295, l='ServerLevel[world]', x=5690.50, y=75.00, z=3916.50]
+[20Dec2024 00:53:56.443] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62347, l='ServerLevel[world]', x=5668.50, y=80.00, z=3933.50]
+[20Dec2024 00:53:58.996] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62372, l='ServerLevel[world]', x=5701.50, y=73.00, z=3856.50]
+[20Dec2024 00:54:01.047] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62384, l='ServerLevel[world]', x=5680.50, y=73.00, z=3951.50]
+[20Dec2024 00:54:03.944] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62476, l='ServerLevel[world]', x=5657.50, y=78.00, z=3946.50]
+[20Dec2024 00:54:04.343] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62477, l='ServerLevel[world]', x=5744.50, y=72.00, z=3799.50]
+[20Dec2024 00:54:04.844] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62483, l='ServerLevel[world]', x=5632.50, y=78.00, z=3919.50]
+[20Dec2024 00:54:08.347] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62579, l='ServerLevel[world]', x=5651.50, y=82.00, z=3922.50]
+[20Dec2024 00:54:14.445] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62723, l='ServerLevel[world]', x=5767.50, y=72.00, z=3818.50]
+[20Dec2024 00:54:24.143] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62824, l='ServerLevel[world]', x=5724.50, y=69.00, z=3855.50]
+[20Dec2024 00:54:25.845] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62845, l='ServerLevel[world]', x=5725.50, y=73.00, z=3787.50]
+[20Dec2024 00:54:37.095] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62903, l='ServerLevel[world]', x=5670.50, y=80.00, z=3935.50]
+[20Dec2024 00:54:45.896] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62936, l='ServerLevel[world]', x=5707.50, y=73.00, z=3793.50]
+[20Dec2024 00:54:47.694] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/62963, l='ServerLevel[world]', x=5619.50, y=77.00, z=3893.50]
+[20Dec2024 00:54:58.094] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63023, l='ServerLevel[world]', x=5699.50, y=73.00, z=3840.50]
+[20Dec2024 00:55:15.744] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63161, l='ServerLevel[world]', x=5708.50, y=73.00, z=3791.50]
+[20Dec2024 00:55:45.544] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63315, l='ServerLevel[world]', x=5701.50, y=73.00, z=3855.50]
+[20Dec2024 00:55:50.095] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63399, l='ServerLevel[world]', x=5743.50, y=73.00, z=3768.50]
+[20Dec2024 00:56:00.944] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63634, l='ServerLevel[world]', x=5729.50, y=70.00, z=3898.50]
+[20Dec2024 00:56:14.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR moved too quickly! 4.067391264832622,-3.209979233290042,9.245285801297541
+[20Dec2024 00:56:24.148] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63887, l='ServerLevel[world]', x=5655.50, y=78.00, z=3947.50]
+[20Dec2024 00:56:30.443] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/63919, l='ServerLevel[world]', x=5681.50, y=74.00, z=3976.50]
+[20Dec2024 00:57:07.995] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64315, l='ServerLevel[world]', x=5688.50, y=75.00, z=3916.50]
+[20Dec2024 00:57:18.146] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64425, l='ServerLevel[world]', x=5682.50, y=74.00, z=3891.50]
+[20Dec2024 00:57:38.897] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64735, l='ServerLevel[world]', x=5668.50, y=76.00, z=3909.50]
+[20Dec2024 00:57:58.795] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Hanging Coconut'/64959, l='ServerLevel[world]', x=5671.50, y=72.00, z=3970.50]
+[20Dec2024 00:58:10.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR has made the advancement [People Are Strange]
+[20Dec2024 00:58:27.753] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/64846, l='ServerLevel[world]', x=5884.30, y=119.00, z=4014.49] died, message: 'Fisherman was shot by Pillager'
+[20Dec2024 00:58:31.741] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6902, y=149, z=3693}
+[20Dec2024 00:59:11.513] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/64847, l='ServerLevel[world]', x=5890.50, y=123.02, z=4058.83] died, message: 'Armorer was shot by Pillager'
+[20Dec2024 00:59:47.356] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/64849, l='ServerLevel[world]', x=5876.12, y=127.00, z=4032.55] died, message: 'Weaponsmith was shot by Pillager'
+[20Dec2024 01:01:34.809] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/64377, l='ServerLevel[world]', x=5825.68, y=83.54, z=4038.49] died, message: 'Villager was slain by Zombie'
+[20Dec2024 01:02:28.500] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/64548, l='ServerLevel[world]', x=5815.15, y=83.00, z=4035.05] died, message: 'Villager was slain by Zombie'
+[20Dec2024 01:05:01.791] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6907, y=147, z=3684}
+[20Dec2024 01:09:29.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -1.0937260605742267,0.0,9.969368848674094
+[20Dec2024 01:10:43.812] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Timed out
+[20Dec2024 01:10:43.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[20Dec2024 01:10:43.814] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[20Dec2024 01:10:49.226] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ray1506[/100.85.101.31:54603] logged in with entity id 70524 at (6892.876726426885, 145.875, 3695.8541877933535)
+[20Dec2024 01:10:49.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 joined the game
+[20Dec2024 01:10:49.441] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ray1506 (18)
+[20Dec2024 01:10:49.442] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[20Dec2024 01:10:49.529] [Netty Epoll Server IO #1/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] ray1506: protocol version: 2.0
+[20Dec2024 01:10:51.994] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[20Dec2024 01:10:52.977] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[20Dec2024 01:10:52.977] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ray1506 (553079a9-4a1e-3309-b36c-4ada3a6e164b) successfully connected to voice chat
+[20Dec2024 01:11:47.804] [pool-8-thread-1/INFO] [Supplementaries/]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_old_growth_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_oak], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_swedish], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_beach], ResourceKey[minecraft:worldgen/structure / repurposed_structures:village_bamboo]] from pos BlockPos{x=6155, y=75, z=4299}
+[20Dec2024 01:11:48.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=6155, y=75, z=4299} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
+[20Dec2024 01:11:48.383] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location BlockPos{x=6155, y=75, z=4299}
+[20Dec2024 01:11:53.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 0.7570554859757976,0.0,-10.262333751787537
+[20Dec2024 01:13:23.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 4.904779049141325,1.1661092609382138,8.735591340263454
+[20Dec2024 01:13:34.231] [Worker-Main-8/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=6182, y=-30, z=4589}
+[20Dec2024 01:15:39.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 10.041277457822616,-1.0,0.0026072494711115723
+[20Dec2024 01:26:24.156] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 8.643752264663817,2.752148900367473,-5.950460260046839
+[20Dec2024 01:27:09.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -4.526988236359102,3.469259671994479,8.28700136700445
+[20Dec2024 01:27:21.505] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -10.314494018937694,1.0,-1.3500091475648333
+[20Dec2024 01:32:47.085] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kamushkarkir[/100.72.1.82:49891] logged in with entity id 78517 at (6858.300000011921, 169.5625, 3824.1832309847878)
+[20Dec2024 01:32:47.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir joined the game
+[20Dec2024 01:33:11.475] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (18)
+[20Dec2024 01:33:11.476] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[20Dec2024 01:33:11.823] [Netty Epoll Server IO #3/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] kamushkarkir: protocol version: 2.0
+[20Dec2024 01:33:27.373] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
+[20Dec2024 01:33:28.374] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
+[20Dec2024 01:33:28.374] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
+[20Dec2024 01:33:32.760] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LFCR lost connection: Disconnected
+[20Dec2024 01:33:32.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR left the game
+[20Dec2024 01:33:32.761] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LFCR
+[20Dec2024 01:34:40.276] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -2.325419071896249,0.0,10.029106780721577
+[20Dec2024 01:36:00.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> recien voy a ordenar xd
+[20Dec2024 01:36:42.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -9.795376832375041,-1.875,-2.301950440499695
+[20Dec2024 01:37:48.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -10.08910027845468,0.0,-0.25157304024332916
+[20Dec2024 01:38:15.588] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 6.906593011977748,0.0,7.336670247340862
+[20Dec2024 01:39:24.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 3.630749691861638,0.0,9.454167180500463
+[20Dec2024 01:39:25.841] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6910, y=148, z=3692}
+[20Dec2024 01:40:36.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -10.033969062307733,1.0,-0.7207165464956233
+[20Dec2024 01:42:45.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Disconnected
+[20Dec2024 01:42:45.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[20Dec2024 01:42:45.753] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[20Dec2024 01:44:26.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20Dec2024 01:44:26.193] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
+[20Dec2024 01:44:26.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Dec2024 01:44:26.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Dec2024 01:44:26.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Dec2024 01:44:26.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Dec2024 01:44:26.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[20Dec2024 01:44:26.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[20Dec2024 01:44:26.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Dec2024 01:44:26.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Dec2024 01:44:26.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Dec2024 01:44:26.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[20Dec2024 01:44:26.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[20Dec2024 01:44:26.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Dec2024 01:44:26.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Dec2024 01:44:26.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Dec2024 01:44:26.715] [Server thread/INFO] [Framework/]: Unloading server configs...
+[20Dec2024 01:44:26.716] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
+[20Dec2024 01:44:26.716] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[20Dec2024 01:44:26.733] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
