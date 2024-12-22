@@ -600,3 +600,7 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 [22Dec2024 16:16:36.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6976, y=162, z=3686} BlockPos{x=6978, y=160, z=3686}
 [22Dec2024 16:17:36.250] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6921, y=156, z=3721}
 [22Dec2024 16:21:06.299] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=6903, y=148, z=3689}
+[22Dec2024 16:21:47.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 4.470728969382435,-4.509530234184581,-8.047159266337076
+[22Dec2024 16:22:08.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -6.435938944870031,-4.830130753879132,6.4706173941654015
+[22Dec2024 16:22:17.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -5.818020340839212,3.2429546980651196,7.711070204984935
+[22Dec2024 16:30:44.398] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6996, y=183, z=3607}
