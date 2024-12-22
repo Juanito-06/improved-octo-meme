@@ -16906,3 +16906,347 @@ com.mojang.brigadier.exceptions.CommandSyntaxException: Invalid chat component: 
 [22Dec2024 16:31:35.120] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Zombie['Zombie'/5866, l='ServerLevel[world]', x=7001.90, y=153.25, z=3537.59] modifiers null
 [22Dec2024 16:31:35.974] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6953.74, y=183.25, z=3620.24] from string ray1506 querying server for mods of entity id 5873
 [22Dec2024 16:31:35.974] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Zombie['Zombie'/5873, l='ServerLevel[world]', x=6991.31, y=67.00, z=3648.73] modifiers null
+[22Dec2024 16:31:41.291] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6953.26, y=184.17, z=3619.48] from string ray1506 querying server for mods of entity id 5879
+[22Dec2024 16:31:41.291] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Skeleton['Skeleton'/5879, l='ServerLevel[world]', x=6966.50, y=217.00, z=3546.50] modifiers null
+[22Dec2024 16:31:42.805] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.43, y=185.00, z=3620.44] from string ray1506 querying server for mods of entity id 5882
+[22Dec2024 16:31:42.805] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Spider['Spider'/5882, l='ServerLevel[world]', x=6925.56, y=155.00, z=3588.49] modifiers null
+[22Dec2024 16:31:42.805] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.43, y=185.00, z=3620.44] from string ray1506 querying server for mods of entity id 5883
+[22Dec2024 16:31:42.806] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity EnderMan['Enderman'/5883, l='ServerLevel[world]', x=6928.50, y=155.00, z=3593.50] modifiers null
+[22Dec2024 16:31:49.101] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6953.53, y=183.00, z=3619.45] from string ray1506 querying server for mods of entity id 5889
+[22Dec2024 16:31:49.102] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Skeleton['Skeleton'/5889, l='ServerLevel[world]', x=6988.50, y=104.00, z=3593.50] modifiers null
+[22Dec2024 16:31:50.604] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6953.04, y=183.00, z=3620.30] from string ray1506 querying server for mods of entity id 5892
+[22Dec2024 16:31:50.604] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Skeleton['Skeleton'/5892, l='ServerLevel[world]', x=6917.50, y=152.00, z=3600.50] modifiers null
+[22Dec2024 16:31:50.604] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6953.04, y=183.00, z=3620.30] from string ray1506 querying server for mods of entity id 5893
+[22Dec2024 16:31:50.604] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Skeleton['Skeleton'/5893, l='ServerLevel[world]', x=6920.50, y=152.00, z=3600.50] modifiers null
+[22Dec2024 16:31:56.279] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.72, y=178.00, z=3620.10] from string ray1506 querying server for mods of entity id 5898
+[22Dec2024 16:31:56.280] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Creeper['Creeper'/5898, l='ServerLevel[world]', x=7040.50, y=205.00, z=3590.06] modifiers null
+[22Dec2024 16:32:01.113] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.72, y=178.00, z=3620.10] from string ray1506 querying server for mods of entity id 5901
+[22Dec2024 16:32:01.114] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Creeper['Creeper'/5901, l='ServerLevel[world]', x=7043.50, y=207.00, z=3592.50] modifiers null
+[22Dec2024 16:32:01.114] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.72, y=178.00, z=3620.10] from string ray1506 querying server for mods of entity id 5902
+[22Dec2024 16:32:01.114] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Creeper['Creeper'/5902, l='ServerLevel[world]', x=6887.50, y=147.00, z=3600.50] modifiers null
+[22Dec2024 16:32:01.114] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.72, y=178.00, z=3620.10] from string ray1506 querying server for mods of entity id 5903
+[22Dec2024 16:32:01.114] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Skeleton['Skeleton'/5903, l='ServerLevel[world]', x=6943.50, y=141.00, z=3561.50] modifiers null
+[22Dec2024 16:32:01.119] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: player ServerPlayer['ray1506'/2298, l='ServerLevel[world]', x=6952.72, y=178.00, z=3620.10] from string ray1506 querying server for mods of entity id 5904
+[22Dec2024 16:32:01.119] [Netty Epoll Server IO #0/DEBUG] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: resolves to entity Creeper['Creeper'/5904, l='ServerLevel[world]', x=6877.50, y=146.00, z=3596.50] modifiers null
+[22Dec2024 16:32:20.621] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Dec2024 16:32:20.633] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Dec2024 16:32:25.309] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Timed out
+[22Dec2024 16:32:25.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[22Dec2024 16:32:25.311] [Server thread/DEBUG] [voicechat/]: [voicechat] Removing state of ray1506
+[22Dec2024 16:32:25.311] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[22Dec2024 16:32:25.336] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.338] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.339] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.340] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.348] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.349] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.349] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.350] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.350] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.351] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.352] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.354] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.354] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.354] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.360] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.361] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.363] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.374] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.392] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.392] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.392] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.393] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.393] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.393] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.393] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.393] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.394] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.394] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.394] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.394] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.397] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.397] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.397] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.398] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.398] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.398] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.398] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.398] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.399] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.402] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.402] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.408] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.408] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.408] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.409] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.409] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.409] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.410] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.410] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.410] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.411] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.412] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.414] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.414] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.414] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.415] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.416] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.417] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.418] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.419] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.420] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.421] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.422] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.422] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.422] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.422] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.422] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.422] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.428] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.428] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.429] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.430] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.431] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.432] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.432] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.432] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:25.446] [VoiceChatPacketProcessingThread/DEBUG] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b does not have a secret
+[22Dec2024 16:32:35.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Dec2024 16:32:35.653] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
+[22Dec2024 16:32:35.655] [Server thread/DEBUG] [lain.mods.cos.init.forge.ForgeCosmeticArmorReworked/]: Server is stopping... try to save all still loaded CosmeticArmor data
+[22Dec2024 16:32:35.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Dec2024 16:32:35.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Dec2024 16:32:35.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Dec2024 16:32:35.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Dec2024 16:32:35.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Dec2024 16:32:35.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Dec2024 16:32:35.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[22Dec2024 16:32:35.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[22Dec2024 16:32:35.771] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Dec2024 16:32:35.784] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[22Dec2024 16:32:35.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Dec2024 16:32:35.821] [Server thread/DEBUG] [mixin/]: Mixing common.access.entity.AccessFakePlayerFactory from crafttweaker.forge.mixins.json into net.minecraftforge.common.util.FakePlayerFactory
+[22Dec2024 16:32:35.822] [Server thread/DEBUG] [mixin/]: Renaming @Accessor method crafttweaker$getFakePlayers()Ljava/util/Map; to crafttweaker$getFakePlayers_$md$2de668$0 in crafttweaker.forge.mixins.json:common.access.entity.AccessFakePlayerFactory
+[22Dec2024 16:32:35.822] [Server thread/DEBUG] [mixin/]: Renaming @Accessor method crafttweaker$getMINECRAFT()Lcom/mojang/authlib/GameProfile; to crafttweaker$getMINECRAFT_$md$2de668$1 in crafttweaker.forge.mixins.json:common.access.entity.AccessFakePlayerFactory
+[22Dec2024 16:32:35.833] [Server thread/INFO] [Framework/]: Unloading server configs...
+[22Dec2024 16:32:35.834] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
+[22Dec2024 16:32:35.835] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[22Dec2024 16:32:35.845] [Server thread/DEBUG] [SpectreLib/CONFIG]: Unloading server configs
+[22Dec2024 16:32:35.846] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[22Dec2024 16:32:35.855] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs

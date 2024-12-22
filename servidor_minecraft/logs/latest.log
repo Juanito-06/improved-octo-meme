@@ -604,3 +604,26 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 [22Dec2024 16:22:08.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -6.435938944870031,-4.830130753879132,6.4706173941654015
 [22Dec2024 16:22:17.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -5.818020340839212,3.2429546980651196,7.711070204984935
 [22Dec2024 16:30:44.398] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6996, y=183, z=3607}
+[22Dec2024 16:32:25.309] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Timed out
+[22Dec2024 16:32:25.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[22Dec2024 16:32:25.311] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[22Dec2024 16:32:35.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Dec2024 16:32:35.653] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Watcher has shut down
+[22Dec2024 16:32:35.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Dec2024 16:32:35.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Dec2024 16:32:35.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Dec2024 16:32:35.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Dec2024 16:32:35.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Dec2024 16:32:35.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Dec2024 16:32:35.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[22Dec2024 16:32:35.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[22Dec2024 16:32:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[22Dec2024 16:32:35.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Dec2024 16:32:35.833] [Server thread/INFO] [Framework/]: Unloading server configs...
+[22Dec2024 16:32:35.834] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
+[22Dec2024 16:32:35.835] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[22Dec2024 16:32:35.855] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
