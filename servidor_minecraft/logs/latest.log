@@ -589,3 +589,14 @@ java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecra
 [22Dec2024 16:09:08.360] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Timed out
 [22Dec2024 16:09:08.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
 [22Dec2024 16:09:08.367] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[22Dec2024 16:13:06.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ray1506[/100.85.101.31:51365] logged in with entity id 2298 at (6881.366790529044, 144.0, 3707.863061451208)
+[22Dec2024 16:13:06.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 joined the game
+[22Dec2024 16:13:07.116] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ray1506 (18)
+[22Dec2024 16:13:07.119] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[22Dec2024 16:13:07.480] [Netty Epoll Server IO #0/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] ray1506: protocol version: 2.0
+[22Dec2024 16:13:09.995] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[22Dec2024 16:13:11.001] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[22Dec2024 16:13:11.001] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ray1506 (553079a9-4a1e-3309-b36c-4ada3a6e164b) successfully connected to voice chat
+[22Dec2024 16:16:36.235] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6976, y=162, z=3686} BlockPos{x=6978, y=160, z=3686}
+[22Dec2024 16:17:36.250] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6921, y=156, z=3721}
+[22Dec2024 16:21:06.299] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=6903, y=148, z=3689}
