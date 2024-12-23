@@ -713,3 +713,76 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 [23Dec2024 04:04:45.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 4.370120578404567,3.4040687352378143,-8.491179046518937
 [23Dec2024 04:04:50.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 6.885832268147169,3.40340586689112,-7.110436632544861
 [23Dec2024 04:06:50.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -3.6505516641827853,2.505283421461769,9.707722009246027
+[23Dec2024 04:09:35.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> MIREN :V
+[23Dec2024 04:09:41.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> donde?
+[23Dec2024 04:09:45.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> su asa
+[23Dec2024 04:09:55.631] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b timed out
+[23Dec2024 04:09:55.631] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player ray1506
+[23Dec2024 04:09:55.632] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[23Dec2024 04:10:12.837] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6894, y=149, z=3719}
+[23Dec2024 04:10:16.301] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Disconnected
+[23Dec2024 04:10:16.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[23Dec2024 04:10:16.304] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[23Dec2024 04:10:34.540] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ray1506[/100.85.101.31:54102] logged in with entity id 9467 at (6878.300000011921, 151.0, 3715.137499988079)
+[23Dec2024 04:10:34.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 joined the game
+[23Dec2024 04:10:35.042] [Netty Epoll Server IO #2/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] ray1506: protocol version: 2.0
+[23Dec2024 04:10:35.050] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ray1506 (18)
+[23Dec2024 04:10:35.050] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[23Dec2024 04:10:36.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> no te volvia piedra?
+[23Dec2024 04:10:40.859] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[23Dec2024 04:10:41.893] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[23Dec2024 04:10:41.893] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ray1506 (553079a9-4a1e-3309-b36c-4ada3a6e164b) successfully connected to voice chat
+[23Dec2024 04:10:44.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> a mi no pq la invoque
+[23Dec2024 04:10:47.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> a ustedes no se
+[23Dec2024 04:10:49.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> a
+[23Dec2024 04:10:58.081] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics
+[23Dec2024 04:11:27.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR has completed the challenge [Almost Unkillable]
+[23Dec2024 04:11:27.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR was turned into gorgonzola by Gorgon
+[23Dec2024 04:11:27.377] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 lost connection: Disconnected
+[23Dec2024 04:11:27.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 left the game
+[23Dec2024 04:11:27.378] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client ray1506
+[23Dec2024 04:11:27.441] [Server thread/INFO] [tombstone/]: The player LFCR has successfully been saved
+[23Dec2024 04:11:27.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> si pero mira deja eso
+[23Dec2024 04:11:27.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> lag?
+[23Dec2024 04:11:27.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> herobrine detras tuyo
+[23Dec2024 04:11:27.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> herobrine detras tuyo
+[23Dec2024 04:11:27.445] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 35960ms or 719 ticks behind
+[23Dec2024 04:11:34.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> que fue
+[23Dec2024 04:11:38.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> todo me lageo
+[23Dec2024 04:11:57.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> no se estaba segun de piedra y a la vez no y luego mori
+[23Dec2024 04:12:14.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> soltaste la cosa esa y me congelo la pantalla
+[23Dec2024 04:12:14.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> ponle en herobrine
+[23Dec2024 04:12:33.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> escuche que se rompio algo o solo fue sonido?
+[23Dec2024 04:12:48.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> me rompio toda la armadura :c
+[23Dec2024 04:12:54.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> completa
+[23Dec2024 04:12:57.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> xd
+[23Dec2024 04:13:01.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> que raro
+[23Dec2024 04:13:05.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> espera ahora te la devuelvo
+[23Dec2024 04:13:13.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> estaba full encantada?
+[23Dec2024 04:13:29.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> si pero no recuerdo que tenia
+[23Dec2024 04:13:38.890] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ray1506[/100.85.101.31:54214] logged in with entity id 11909 at (6879.256050695311, 151.0, 3714.998418129997)
+[23Dec2024 04:13:38.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ray1506 joined the game
+[23Dec2024 04:13:41.805] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of ray1506 (18)
+[23Dec2024 04:13:41.806] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[23Dec2024 04:13:42.134] [Netty Epoll Server IO #5/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] ray1506: protocol version: 2.0
+[23Dec2024 04:13:50.244] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[23Dec2024 04:13:51.232] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[23Dec2024 04:13:51.232] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ray1506 (553079a9-4a1e-3309-b36c-4ada3a6e164b) successfully connected to voice chat
+[23Dec2024 04:14:26.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> imagino que los encantamientos clasicosa
+[23Dec2024 04:14:37.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> full netherita?
+[23Dec2024 04:15:02.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Set own game mode to Creative Mode]
+[23Dec2024 04:15:36.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Respiration III to kamushkarkir's item]
+[23Dec2024 04:15:44.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Unbreaking III to kamushkarkir's item]
+[23Dec2024 04:15:47.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Unbreaking III to kamushkarkir's item]
+[23Dec2024 04:15:48.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Unbreaking III to kamushkarkir's item]
+[23Dec2024 04:15:50.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Unbreaking III to kamushkarkir's item]
+[23Dec2024 04:16:01.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Protection IV to kamushkarkir's item]
+[23Dec2024 04:16:04.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Protection IV to kamushkarkir's item]
+[23Dec2024 04:16:05.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Protection IV to kamushkarkir's item]
+[23Dec2024 04:16:07.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Protection IV to kamushkarkir's item]
+[23Dec2024 04:16:22.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Aqua Affinity to kamushkarkir's item]
+[23Dec2024 04:17:34.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Mending to kamushkarkir's item]
+[23Dec2024 04:17:36.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Mending to kamushkarkir's item]
+[23Dec2024 04:17:38.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Mending to kamushkarkir's item]
+[23Dec2024 04:17:41.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Mending to kamushkarkir's item]
+[23Dec2024 04:17:57.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kamushkarkir: Applied enchantment Feather Falling IV to kamushkarkir's item]

@@ -14001,5 +14001,11 @@
     },
     "done": true
   },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2024-12-23 04:11:27 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
