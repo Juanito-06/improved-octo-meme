@@ -671,3 +671,45 @@ Caused by: java.net.ConnectException: HTTP connect timed out
 [23Dec2024 03:39:48.455] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kamushkarkir lost connection: Timed out
 [23Dec2024 03:39:48.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir left the game
 [23Dec2024 03:39:48.457] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kamushkarkir
+[23Dec2024 03:48:42.792] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=6917, y=155, z=3718}
+[23Dec2024 03:49:15.749] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kamushkarkir[/100.72.1.82:49817] logged in with entity id 3685 at (6875.699999988079, 144.0, 3718.699999988079)
+[23Dec2024 03:49:15.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kamushkarkir joined the game
+[23Dec2024 03:49:21.600] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kamushkarkir (18)
+[23Dec2024 03:49:21.600] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kamushkarkir
+[23Dec2024 03:49:21.658] [Netty Epoll Server IO #4/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] kamushkarkir: protocol version: 2.0
+[23Dec2024 03:49:52.424] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4061c684-bf7c-3757-9a94-fd50d1219759
+[23Dec2024 03:49:53.420] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4061c684-bf7c-3757-9a94-fd50d1219759
+[23Dec2024 03:49:53.421] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player kamushkarkir (4061c684-bf7c-3757-9a94-fd50d1219759) successfully connected to voice chat
+[23Dec2024 03:50:11.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> oe
+[23Dec2024 03:50:30.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> q
+[23Dec2024 03:50:37.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> ven
+[23Dec2024 03:50:48.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> a mi cuaerto
+[23Dec2024 03:50:50.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> cuarto
+[23Dec2024 03:51:08.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> onde
+[23Dec2024 03:51:16.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> mi cuarto
+[23Dec2024 03:51:18.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> real
+[23Dec2024 03:52:33.893] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LFCR[/100.66.61.51:57362] logged in with entity id 4200 at (6885.420713391892, 145.875, 3691.8420311531236)
+[23Dec2024 03:52:33.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LFCR joined the game
+[23Dec2024 03:52:36.683] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LFCR (18)
+[23Dec2024 03:52:36.684] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LFCR
+[23Dec2024 03:52:36.748] [Netty Epoll Server IO #6/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] LFCR: protocol version: 2.0
+[23Dec2024 03:52:43.605] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 5c163b9e-26d1-3bd9-a134-a7a3db5f6f81
+[23Dec2024 03:52:44.617] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 5c163b9e-26d1-3bd9-a134-a7a3db5f6f81
+[23Dec2024 03:52:44.618] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LFCR (5c163b9e-26d1-3bd9-a134-a7a3db5f6f81) successfully connected to voice chat
+[23Dec2024 03:56:08.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> que van a hacer
+[23Dec2024 03:56:19.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <ray1506> yo el coso ese
+[23Dec2024 03:56:44.587] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -8.521428308968098,4.5,3.113766576019316
+[23Dec2024 03:57:16.734] [Server thread/ERROR] [mezz.jei.common.transfer.BasicRecipeTransferHandlerServer/]: Tried to transfer recipe but was given an empty inventory slot as an ingredient source: 25
+[23Dec2024 03:57:37.302] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 553079a9-4a1e-3309-b36c-4ada3a6e164b timed out
+[23Dec2024 03:57:37.303] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player ray1506
+[23Dec2024 03:57:37.303] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to ray1506
+[23Dec2024 03:57:38.516] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[23Dec2024 03:57:38.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -7.859989171828602,0.0,-6.550157678945197
+[23Dec2024 03:57:39.651] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 553079a9-4a1e-3309-b36c-4ada3a6e164b
+[23Dec2024 03:57:39.651] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player ray1506 (553079a9-4a1e-3309-b36c-4ada3a6e164b) successfully connected to voice chat
+[23Dec2024 04:01:56.690] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 8.026861564521823,-6.535840625044557,-0.229818485297983
+[23Dec2024 04:03:51.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kamushkarkir> zz
+[23Dec2024 04:03:57.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LFCR> zzzz
+[23Dec2024 04:04:45.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 4.370120578404567,3.4040687352378143,-8.491179046518937
+[23Dec2024 04:04:50.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! 6.885832268147169,3.40340586689112,-7.110436632544861
+[23Dec2024 04:06:50.314] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ray1506 moved too quickly! -3.6505516641827853,2.505283421461769,9.707722009246027
